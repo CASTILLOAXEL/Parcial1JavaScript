@@ -1,0 +1,1 @@
+console.log(Array.from('asdfghjkl')); // [ 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l' ]nide
