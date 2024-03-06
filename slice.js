@@ -1,4 +1,4 @@
-const array = ['a','b','c','d','e','f','g','h'];
+const array = ['a','b','c','d','e','f'];
 
-const resultArray = array.slice(3,6);
-console.log(resultArray); // ['d', 'e', 'f']
+const resultArray = array.slice(2,5);
+console.log(resultArray); // ['c','d','e']node

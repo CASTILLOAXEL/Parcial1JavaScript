@@ -1,5 +1,3 @@
-const array =['banana','manzana','pera','uva'];
-
+const array = ['banana','pera','uva','manzana'];
 array.shift();
-
-console.log(array);
+console.log(array); //['pera','uva','manzana']

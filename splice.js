@@ -1,4 +1,4 @@
-const array = ['banana','manzana','pera','uva'];
+const array = ['banana','pera','uva','manzana'];
 
-array.splice(1,0,'melon');
-console.log(array); // [ 'banana', 'melon' ]
+array.splice(1,0,'mandarina');
+console.log(array); //['banana','mandarina','manzana']

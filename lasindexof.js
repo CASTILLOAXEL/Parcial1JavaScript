@@ -1,2 +1,2 @@
-const array = ['banana','manzana','pera','uva'];
-console.log(array.lastIndexOf('uva'));
+const array = ['banana','pera','uva','manzana'];
+console.log(array.lastIndexOf('uva')); //2

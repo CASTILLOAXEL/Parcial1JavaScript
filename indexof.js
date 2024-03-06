@@ -1,4 +1,4 @@
-const  array = ['maria','jose','luis','pedro'];
+const array = ['banana','pera','uva','manzana'];
 
-const resultArray = array.indexOf('pedro');
-console.log(resultArray); // 1
+const resultArray = array.indexOf('uvaaa');
+console.log(resultArray); //2

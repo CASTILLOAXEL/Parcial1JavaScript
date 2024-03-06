@@ -1,10 +1,9 @@
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
- 
+const array = [1,2,3,4,5,6,7,8,9,10];
+/// los elementos mayores a 5
 
-//os elementos son mayores que el numer 6
-const resultArray = array.some(elemento => elemento>6);
-console.log(resultArray); // true
+const resultArray = array.some(elemento => elemento >5);
+console.log(resultArray);//trhue
 
-//todos los elementos son aon menores que 0
- const resultArray2 = array.some(elemento => elemento < 0);
-    console.log(resultArray2); // false
+//los elementos menores que 0
+const resulArray2 = array.some(elemento => elemento < 0);
+console.log(resulArray2); //false

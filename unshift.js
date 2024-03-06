@@ -1,4 +1,4 @@
-const array =['banana','manzana','pera','uva'];
+const array = ['banana','pera','uva','manzana'];
 
-console.log(array.unshift('naranja','mandarina')); // 6
-console.log(array); // [ 'naranja', 'mandarina', 'banana', 'manzana', 'pera', 'uva' ]
+console.log(array.unshift('mandarina'));
+console.log(array); //['mandarina','banana','pera','uva','manzana']node

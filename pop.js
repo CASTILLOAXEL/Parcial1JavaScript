@@ -1,4 +1,3 @@
-const array =['banana','manzana','pera','uva'];
+const array = ['banana','pera','uva','manzana'];
 array.pop();
-
-console.log(array); // [ 'banana', 'manzana', 'pera' ]
+console.log(array); //['banana','pera','uva']

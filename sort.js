@@ -1,10 +1,10 @@
-const array =[1,8,,3,7,9,1,5,9,12,20];
+const array = [2,8,6,4,3,9,7,1,5,2,5,4];
 
+//Ordenar de forma decentee
+const resultArray = array.sort((a,b)=> a>b ? 1 : -1);
+console.log(resultArray);
 
-//ordenar desendente 
-const  desendente = array.sort((a,b)=> a>b ? -1 : 1);
-console.log(desendente);
+//ordenamos de forma acendente
 
-//ordenar asendente
-const  asendente = array.sort((a,b)=> a>b ? 1 : -1);
-console.log(asendente);
+const resulArray2 = array.sort((a,b) => a>b ? -1 : 1);
+console.log(resulArray2);

@@ -1,1 +1,1 @@
-console.log(Array.from('asdfghjkl')); // [ 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l' ]nide
+console.log(Array.from('1236545454556'));
